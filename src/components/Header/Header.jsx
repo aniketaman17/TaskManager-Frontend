@@ -9,7 +9,7 @@ function Header() {
     console.log("user", user);
     const logout = () => {
         localStorage.removeItem("authToken");
-        window.location.href = "/login";
+        window.location.href = "/";
     }
 
     return (
