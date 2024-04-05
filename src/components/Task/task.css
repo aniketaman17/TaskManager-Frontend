@@ -1,0 +1,34 @@
+input{
+    border: 1px solid black; /* Add border */
+}
+.task-info {
+    text-align: left;
+    
+}
+
+.task-title {
+    margin-bottom: 10px;
+    border: 1px solid black; /* Add border */
+    padding: 5px; /* Add padding */
+}
+
+.task-description textarea {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    border: 1px solid black; /* Add border */
+    padding: 5px; /* Add padding */
+    background-color: red;
+}
+textarea{
+    border: 1px solid black; /* Add border */
+    margin: .4em;
+  
+}
+
+@media screen and (max-width: 768px) {
+    .task-info {
+        text-align: justify;
+        text-justify: distribute;
+        word-wrap: break-word;
+    }
+}
