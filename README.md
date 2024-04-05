@@ -1,3 +1,5 @@
+### NOTE - Their is two different repositories for frontend and backend
+
 ### Installation Instructions
 
 1. Navigate to the frontend directory:
